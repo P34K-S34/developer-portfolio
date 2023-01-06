@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina&family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mina', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.primary-btn{
+    height: 64px;
+    background-color: #FD6E0A;
+    color: #fff;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-weight: 700px;
+    font-size: 20px;
+
+    padding: 18px 36px;
+}
+.primary-btn:hover{
+    background-color: #fff;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+.second-primary-btn{
+    height: 64px;
+    background-color: #fff;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    font-weight: 700px;
+    font-size: 20px;
+}
+.second-primary-btn:hover{
+    background-color: #FD6E0A;
+    color: #fff;
+}
+/* Header Styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-logo{
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+}
+.txt-color{
+    color: #FD6E0A;
+}
+#header .menu{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+#header .menu li{
+    margin-left: 50px;
+}
