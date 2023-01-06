@@ -9,9 +9,13 @@
 a{
     text-decoration: none;
 }
+button{
+    cursor: pointer;
+}
 
+/* Buttons Styles */
 .primary-btn{
-    height: 64px;
+    height: 50px;
     background-color: #FD6E0A;
     color: #fff;
     transition: all 0.3s ease;
@@ -20,7 +24,7 @@ a{
     font-weight: 700px;
     font-size: 20px;
 
-    padding: 18px 36px;
+    padding: 10px 20px;
 }
 .primary-btn:hover{
     background-color: #fff;
@@ -28,7 +32,7 @@ a{
     border: 1px solid #FD6E0A;
 }
 .second-primary-btn{
-    height: 64px;
+    height: 50px;
     background-color: #fff;
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
@@ -36,16 +40,26 @@ a{
     border-radius: 5px;
     font-weight: 700px;
     font-size: 20px;
+    padding: 8px 20px;
+
+    margin-left: 10px;
 }
 .second-primary-btn:hover{
     background-color: #FD6E0A;
     color: #fff;
 }
 /* Header Styles */
+#header{
+    background: #fff4ec;
+    background-image: url(images/header_bg.png),
+                      url(images/developer.png)      ;
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 100px 50px 200px;
 }
 .nav-logo{
     font-weight: 800;
@@ -55,11 +69,57 @@ nav{
 .txt-color{
     color: #FD6E0A;
 }
+
+
+
 #header .menu{
     display: flex;
     list-style-type: none;
     align-items: center;
 }
 #header .menu li{
-    margin-left: 50px;
+    margin-left: 20px;
+}
+#header .menu li a {
+    font-weight: 400;
+    font-size: 20px;
+    color: #474747;
+    padding: 10px 40px;
+    border: 0.5px solid #ffebdd;
+    border-radius: 5px;
+
+    transition: all 0.3s ease;
+}
+#header .menu li a:hover{
+    background-color: rgba(153, 30, 30, 0.226);
+}
+
+#header .header-banner{
+    display: flex;
+    align-items: center;
+    margin: 0 20px 0 200px;
+}
+#header .header-banner .banner-tittle{
+    margin-bottom: 5px;
+
+    font-weight: 600;
+    font-size: 35px;
+    color: #474747;
+}
+#header .header-banner .banner-subtittle{
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 65px;
+    color: #181818;
+}
+#header .header-banner .banner-description{
+    margin-bottom: 30px;
+
+    font-weight: 400;
+    font-size: 15px;
+    color: #757575;
+}
+#header .header-banner .icon{
+    width: 20px;
 }
