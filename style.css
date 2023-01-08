@@ -48,6 +48,9 @@ button{
     background-color: #FD6E0A;
     color: #fff;
 }
+/*  */
+
+
 /* Header Styles */
 #header{
     background: #fff4ec;
@@ -56,6 +59,10 @@ button{
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
+
+
+
+/* Nav & Logo styles */
 nav{
     display: flex;
     justify-content: space-between;
@@ -72,6 +79,7 @@ nav{
 
 
 
+/* Nav menu Styles */
 #header .menu{
     display: flex;
     list-style-type: none;
@@ -94,6 +102,9 @@ nav{
     background-color: rgba(153, 30, 30, 0.226);
 }
 
+
+
+/* Header Banner Styles */
 #header .header-banner{
     display: flex;
     align-items: center;
@@ -120,6 +131,192 @@ nav{
     font-size: 15px;
     color: #757575;
 }
-#header .header-banner .icon{
-    width: 20px;
+/*  */
+
+
+/* Main section styles */
+#main{
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+
+/* Aboutme section styles */
+.about-me{
+    text-align: center;
+    background-color: #fff4ec;
+    padding: 80px 100px;
+    border-radius: 10px;
+}
+.section-tittle{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.section-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 15px;
+}
+
+
+#main .about-table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 10px;
+}
+#main .about-table .thead{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+#main .about-table .tbody{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+
+/* What I Do section styles */
+#main .whatido{
+    margin-top: 130px;
+    text-align: center;
+}
+#main .whatido h3{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+
+/* Technologies styles */
+#main .technologies{
+    margin-top: 50px;
+    display: flex;
+}
+#main .technologies .tech{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    margin-right: 25px;
+    padding: 30px;
+}
+#main .technologies .tech:last-child{
+    margin-right: none;
+}
+
+
+#main .tech .tech-tittle{
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#main .tech .tech-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+
+/* Resume styles */
+#main .resume-summery{
+    margin-top: 130px;
+}
+#main .resume-summery .resume-alignment{
+    display: flex;
+    margin-top: 60px;
+}
+#main .resume-summery hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#main .resume-summery .resume-education-main{
+    margin-right: 24px;
+}
+#main .resume-summery .resume-education-sub{
+    margin-bottom: 30px;
+}
+#main .resume-summery .resume-tittle{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+#main .resume-summery .resume-subtittle{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+#main .resume-summery .resume-details{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+#main .resume-summery .resume-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+.resume-btn{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+/* Footer Styles */
+#footer{
+    margin-top: 110px;
+    background-color: #ffebdd;
+}
+#footer .footer-width{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: space-evenly;
+}
+
+/* Social section styles */
+#footer .connect{
+    margin-right: 54px;
+    width: 50%;
+}
+#footer .connect h3{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#footer .connect .social-links{
+    display: flex;
+    list-style-type: none;
+    margin-top: 30px;
+}
+#footer .connect .social-links li{
+    margin-right: 24px;
+}
+
+
+/* Contact Form styles */
+#footer .contact-form input[type="text"], input[type="email"], textarea{
+    width: 460px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border: none;
+}
+#footer .contact-form h3{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 28px;
 }

@@ -1,42 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
 
-    <title>Dev Portfolio</title>
-  </head>
-  <body>
-    <header id="header">
-      <nav>
-        <a href="#"
-          ><h2 class="nav-logo">Ma<span class="txt-color">r</span>y</h2></a
-        >
-        <ul class="menu">
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><button class="primary-btn">Hire Me</button></li>
-        </ul>
-      </nav>
-      <div class="header-banner">
-        <div>
-          <h3 class="banner-tittle">Hi, I am</h3>
-          <h1 class="banner-subtittle">Mary Hardy</h1>
-          <p class="banner-description">
-            Shot what able cold new see hold.Friendly as an betrayed formerly
-            he. Morning because as to society behaved moments.
-          </p>
-          <button class="primary-btn">Download CV</button>
-          <button class="second-primary-btn">Contact</button>
-        </div>
-        <img src="images/hardy.png" alt="">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Dev Portfolio</title>
+</head>
+
+<body>
+  <header id="header">
+    <!-- Header Nav -->
+    <nav>
+      <a href="#">
+        <h2 class="nav-logo">Ma<span class="txt-color">r</span>y</h2>
+      </a>
+      <ul class="menu">
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><button class="primary-btn">Hire Me</button></li>
+      </ul>
+    </nav>
+
+    <!-- Header Banner -->
+    <div class="header-banner">
+      <div>
+        <h3 class="banner-tittle">Hi, I am</h3>
+        <h1 class="banner-subtittle">Mary Hardy</h1>
+        <p class="banner-description">
+          Shot what able cold new see hold.Friendly as an betrayed formerly
+          he. Morning because as to society behaved moments.
+        </p>
+        <button class="primary-btn">Download CV</button>
+        <button class="second-primary-btn">Contact</button>
       </div>
-    </header>
 
-    <main id="main"></main>
+      <img src="images/hardy.png" alt="" />
+    </div>
+  </header>
 
-    <footer id="footer"></footer>
-  </body>
+  <!-- Main section -->
+  <main id="main">
+
+    <!-- About Section -->
+    <section class="about-me">
+      <h3 class="section-tittle">About Me</h3>
+      <p class="section-description">
+        I'm a designer & developer with a passion for web design. I enjoy
+        developing simple, clean and slick websites that provide real value to
+        the end user. Thousands of clients have procured exceptional resulfs
+        while working with me. Delivering work within time and budget which
+        meets clients requirements in our mata.
+      </p>
+      <table class="about-table">
+        <tr class="thead">
+          <td>Name:</td>
+          <td>Email:</td>
+          <td>Date of Birth:</td>
+          <td>From:</td>
+        </tr>
+        <tr class="tbody">
+          <td>Mady Hardy</td>
+          <td>Info@gmail.com</td>
+          <td>1 Jan 1999</td>
+          <td>Canada</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- What I do section -->
+    <section class="whatido">
+      <h3 class="section-tittle">What I Do</h3>
+      <p class="section-description">
+        I have more than 10 years experience building software for clients all
+        over the world. Below is a quick overview of my main technical skill
+        sets and technologies i use. Want to find out more about my
+        experience? Check out my online resume and project portfolio.
+      </p>
+    </section>
+
+    <section class="technologies">
+      <div class="tech">
+        <img src="images/icons/js.png" alt="">
+        <p class="tech-tittle">Vanila JavaScript</p>
+        <p class="tech-description">
+          List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons
+          available.
+          Aenean commodo ligula eget dolor.
+        </p>
+      </div>
+      <div class="tech">
+        <img src="images/icons/react.png" alt="">
+        <p class="tech-tittle">React</p>
+        <p class="tech-description">
+          List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons
+          available.
+          Aenean commodo ligula eget dolor.
+        </p>
+      </div>
+      <div class="tech">
+        <img src="images/icons/nodejs.png" alt="">
+        <p class="tech-tittle">NodeJS</p>
+        <p class="tech-description">
+          List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome
+          5 free icons available. Aenean commodo ligula eget dolor
+        </p>
+      </div>
+      <div class="tech">
+        <img src="images/icons/mongo.png" alt="">
+        <p class="tech-tittle">MongoDB</p>
+        <p class="tech-description">
+          List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons
+          available.
+          Aenean commodo ligula eget dolor.
+        </p>
+      </div>
+    </section>
+
+    <!-- Resume summery section -->
+    <section class="resume-summery">
+      <h3 class="section-tittle">A Summery of My Resume</h3>
+      <div class="resume-alignment">
+
+        <!-- Resume education section -->
+        <div class="resume-education-main">
+          <div class="resume-education-sub">
+            <p class="resume-tittle">My Education</p>
+            <p class="resume-subtittle">Master in Computer Engineering</p>
+            <p class="resume-details">Harvard University / 2015 - 2017</p>
+            <p class="resume-description">
+              List skill/technologies here. You can change the icon above
+              to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+            </p>
+          </div>
+          <hr>
+
+          <div class="resume-education-sub">
+            <p class="resume-subtittle">Master in Computer Engineering</p>
+            <p class="resume-details">Harvard University / 2015 - 2017</p>
+            <p class="resume-description">
+              List skill/technologies here. You can change the icon above
+              to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+            </p>
+          </div>
+          <hr>
+
+          <div class="resume-education-sub">
+            <p class="resume-subtittle">Master in Computer Engineering</p>
+            <p class="resume-details">Harvard University / 2015 - 2017</p>
+            <p class="resume-description">
+              List skill/technologies here. You can change the icon above
+              to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+            </p>
+          </div>
+        </div>
+
+        <!-- Resume experience section -->
+        <div class="resume-experience-main">
+          <div class="resume-experience-sub">
+            <p class="resume-tittle">My Experience</p>
+            <p class="resume-subtittle">Sr. Font End Developer</p>
+            <p class="resume-details">Apple Inc / 2020 - Current</p>
+            <p class="resume-description">
+              List skill/technologies here. You can change the icon above
+              to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+            </p>
+          </div>
+          <hr>
+          <div class="resume-experience-sub">
+            <p class="resume-subtittle">Sr. Font End Developer</p>
+            <p class="resume-details">Apple Inc / 2020 - Current</p>
+            <p class="resume-description">
+              List skill/technologies here. You can change the icon above
+              to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+            </p>
+          </div>
+          <hr>
+
+          <div class="resume-experience-sub">
+            <p class="resume-subtittle">Sr. Font End Developer</p>
+            <p class="resume-details">Apple Inc / 2020 - Current</p>
+            <p class="resume-description">
+              List skill/technologies here. You can change the icon above
+              to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <div class="resume-btn">
+        <button class="primary-btn">Download CV</button>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- Footer section -->
+  <footer id="footer">
+    <div class="footer-width">
+
+      <!-- Social Section -->
+      <div class="connect">
+      <h3>Let's Connect</h3>
+      <p class="section-description">
+        Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday
+        through Friday.
+      </p>
+      <ul class="social-links">
+        <li><a href="#"><img src="images/icons/facebook.png" alt=""></a></li>
+        <li><a href="#"><img src="images/icons/insta.png" alt=""></a></li>
+        <li><a href="#"><img src="images/icons/twitter.png" alt=""></a></li>
+      </ul>
+      </div>
+
+      <!-- Form Section -->
+      <div class="contact-form">
+        <h3>Let's Message Me</h3>
+        <input type="text" name="" id="" placeholder="Your Name">
+        <br>
+        <input type="email" name="" id="" placeholder="Your Email">
+        <br>
+        <textarea name="" id="" cols="30" rows="5" placeholder="Messages"></textarea>
+        <br>
+        <input type="Submit" name="Submit" class="primary-btn">
+      </div>
+    </div>
+
+
+  </footer>
+</body>
+
 </html>
